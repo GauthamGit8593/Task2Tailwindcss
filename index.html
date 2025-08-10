@@ -1,71 +1,113 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
+
+
+
 <head>
+
     <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Righteous&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        .righteous-regular {
+
+            font-family: "Righteous", sans-serif;
+
+            font-weight: 500;
+
+            font-style: normal;
+
+        }
+
+        .saira {
+            font-family: "Saira", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+
+
 </head>
 
-<body class="text-gray-800">
-    <!---Nav Bar -->
-    <nav class="bg-white shadow-md top-0 left-0 right-0 z-50">
-        <div class="flex justify-between items-center mx-auto py-4">
-            <h1 class="text-2xl font-bold text-black-500">Welcome to Gautham Travel World</h1>
-            <ul class="flex gap-6 font-medium text-sm">
-                <li><a href="" class="hover:text-blue-600">Home</a></li>
-                <li><a href="" class="hover:text-blue-600">Destinations</a></li>
-                <li><a href="" class="hover:text-blue-600">Offers</a></li>
-                <li><a href="" class="hover:text-blue-600">Register</a></li>
-                <li><a href="" class="hover:text-blue-600">Gallery</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Hero Section-->
-    <header class="h-screen bg-cover bg-center flex items-center justify-center text-white"
-        style="background-image: url(https://img.freepik.com/premium-photo/top-view-travel-outfit-accessories-equipment-with-copy-space-black-background_146508-642.jpg);">
-        <div class="text-center px-6">
-            <h2 class="text-4l md:text-6xl font-bold mb-4">Explore the World !!</h2>
-            <p class="text-lg md:text-xl mb-6">Plan your trip with Gautham to travel around the world</p>
-            <a class="text-blue-600 bg-white font-semibold px-6 py-4 rounded-full hover:bg-gray-200" href="">Start your
-                Journey</a>
-        </div>
-    </header>
-
-    <section class="py-20- bg-gray-100">
-        <div class="container mx-auto px-4">
-            <h3 class="text-3xl font-bold text-center mb-10 uppercase">Popular Destinations</h3>
 
 
-            <div class="grid grid-cols-3 gap-8">
+<body class="box-border m-0 p-0 bg-white mb-10">
 
 
-                <div class="bg-white shadow-lg rounded-lg">
-                    <img class="w-full"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXcnALbkKSVaiu6Gl2KU0nDQM6Z_V-uzCOeA&s">
 
-                    <div class="p-6">
-                        <h4 class="text-xl font-semibold mb-2">Stars View</h4>
-                        <p class="text-gray-800">Shine like a star in the darkness</p>
-                    </div>
+    <!-- Nav Bar Section-->
+
+    <div class="mx-auto">
+
+        <nav class="flex items-center gap-8 justify-between bg-white ps-4 pe-20 shadow-lg">
+
+            <div class="flex">
+
+                <a href="" class="mt-2"><img src="./images/Askmeidentity 2.png" class="h-16 w-auto" /></a>
+
+            </div>
+
+            <div class="flex gap-x-10 text-sm righteous-regular">
+
+                <a href="" class="hover:text-gray-500">Home</a>
+
+                <a href="" class="hover:text-gray-500">About</a>
+
+                <a href="" class="hover:text-gray-500">Courses</a>
+
+                <a href="" class="hover:text-gray-500">Contact</a>
+
+                </ul>
+
+            </div>
+
+
+
+            <div class="relative gap-x-10 lg:flex">
+
+                <a><i class="fa-solid fa-cart-shopping"></i>
+
+                    <span class="bg-green-500 text-sm text-white rounded-full px-1 absolute left-2 -top-3">0</span>
+
+                </a>
+
+                <a><i class="fa-regular fa-circle-user"></i></a>
+
+                <a><i class="fa-solid fa-magnifying-glass"></i></a>
+
+            </div>
+
+
+
+            <div class="flex gap-x-10 text-sm">
+
+                <div><a
+                        class="hover:shadow-xl hover:bg-gradient-to-l from-violet-600 via-indigo-700 to-blue-700 hover:text-white hover:rounded px-6 py-2">Login</a>
+
                 </div>
 
-                <div class="bg-white shadow-lg rounded-lg">
-                    <img class="w-full"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjcicP32Qsoyhw7qHA6Tz1PDXLoZZTy_yWuA&s">
+                <div><a
+                        class="hover:shadow-xl hover:bg-gradient-to-l from-violet-600 via-indigo-700 to-blue-700 hover:text-white hover:rounded px-6 py-2">Sign-Up</a>
 
-                    <div class="p-6">
-                        <h4 class="text-xl font-semibold mb-2">Stars View</h4>
-                        <p class="text-gray-800">Shine like a star in the darkness</p>
-                    </div>
-                </div>
-
-                <div class="bg-white shadow-lg rounded-lg">
-                    <img class="w-full"
-                        src="data:image/jpeg;base64,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">
-                    <div class="p-6">
-                        <h4 class="text-xl font-semibold mb-2">Stars View</h4>
-                        <p class="text-gray-800">Shine like a star in the darkness</p>
-                    </div>
                 </div>
 
 
@@ -74,58 +116,636 @@
 
 
 
+        </nav>
 
+    </div>
+
+
+
+    <!-- Main Lady Section-->
+
+    <section>
+
+        <div class="flex bg-gradient-to-bl from-blue-800 to-violet-500 pt-2 ps-7">
+            <!--Left Side-->
+            <div class="pb-40 mt-10">
+
+                <div class="flex">
+
+                    <div class="w-150 ">
+
+                        <p class="uppercase righteous-regular text-white text-xs">successfull coaches are visionaries
+
+                        </p>
+
+                        <h1 class="righteous-regular text-white font-bold text-3xl">Good <span
+                                class="text-blue-600">coaching</span> is good teaching nothing & else.</h1>
+
+                    </div>
+
+                    <div class="flex">
+
+                        <div class="px-4">
+
+                            <img src="/images/Group 1000014970.png">
+
+                        </div>
+
+                        <div class="text-white w-40 righteous-regular">
+
+                            <h4 class="mb-5">Shyam</h4>
+
+                            <p>In a coaching role, you ask the questions and rely more on yuor staff, who became the
+
+                                experts to provide the information</p>
+
+                            <br>
+
+                            <span>4.9</span>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+                <div class="flex gap-5">
+
+                    <a class="text-white px-4 py-1 hover:border hover:rounded">View Courses</a>
+
+                    <a class="text-white px-4 py-1 hover:border hover:rounded">Get Free Consultation</a>
+
+                </div>
+
+
+
+                <div class="">
+
+                    <div class="mt-12 pb-1">
+
+                        <form>
+
+                            <div class="relative ">
+
+                                <input type="text" placeholder="What do you want to learn?"
+                                    class="w-9/11 p-5 rounded-md text-xs bg-white">
+
+                                <div class="absolute top-1.5 right-1/4 ">
+
+                                    <button type="button"
+                                        class="text-white bg-gradient-to-l from-violet-700 via-indigo-700 to-blue-700 rounded mt-0.5 px-5 py-2 m-1"><i
+                                            class="fa-solid fa-magnifying-glass"></i>Search</button>
+
+                                </div>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+            <div>
+                <div class="relative lg:block">
+
+                    <span class="border border-gray-300 p-32 absolute rounded-t-full -right-40 top-86"></span>
+
+                    <span
+                        class="border border-gray-300 p-28 border-dashed absolute rounded-t-full -right-36 top-95"></span>
+
+                    <span class="border border-gray-300 p-24 absolute rounded-t-full -right-31 top-102"></span>
+
+                </div>
+            </div>
+            <!--Right Side-->
+            <div>
+
+                <div class="relative top-20 roght-0 h-95">
+
+                    <img src="images/Ellipse 8324.png" class="relative">
+
+                </div>
+
+                <img src="images/brunette-woman-hugging-laptop_1-removebg-preview.png"
+                    class="absolute top-20 right-20 hidden lg:block">
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--Companies-->
+    <section>
+        <div
+            class="p-5 flex bg-gradient-to-bl from-blue-800 to-violet-500 shadow-50 relative top-0 text-white justify-between p-5">
+            <img src="images/brand1.png" class="w-25 h-10">
+            <img src="images/brand6.png" class="w-25 h-10">
+            <img src="images/brand3.png" class="w-25 h-10">
+            <img src="images/brand5.png" class="w-25 h-10">
+            <img src="images/brand1.png" class="w-25 h-10">
+            <img src="images/brand6.png" class="w-25 h-10">
+        </div>
+    </section>
+    <!--Ring Data-->
+    <section>
+        <div class="bg-gradient-to-b from:white via:sky-100 to-sky-200 pb-5">
+
+            <div class="mb-10">
+                <div class="mt-15 ml-25">
+                    <img src="images/Ellipse 118.png" class="w-15 h-15">
+                </div>
+                <div class="flex justify-center">
+
+                    <span class="text-transform: uppercase righteous-regular ">The feature courses are we invented our
+                        teaching part</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4 ps-30 mt-15">
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="">
+                        <img class="rounded-t-lg"
+                            src="images/3d-map-pins-gps-navigator-pin-checking-poins-3d-render-illustration 1.png">
+                    </a>
+
+                    <div class="flex justify-between mb-5 mt-4 p-4">
+                        <span class="text-xs text-gray-600">1957 Students</span>
+                        <span class="text-xs text-gray-600">01h 59m</span>
+                    </div>
+                    <p class="p-2 saira">
+                        Motion Graphics: Create a Nice Typographic Animation
+                    </p>
+                    <div class="flex justify-between mt-6 p-4">
+                        <span class="text-xs text-gray-600">Rs.499</span>
+                        <span class="text-xs text-gray-600"><i class="fa-solid fa-cart-shopping"></i></span>
+
+                    </div>
+                </div>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="">
+                        <img class="rounded-t-lg"
+                            src="images/3d-jigsaw-puzzle-pieces-pink-background-problem-solving-business-concept-3d-render-illustration 1.png">
+                    </a>
+
+                    <div class="flex justify-between mb-5 mt-4 p-4">
+                        <span class="text-xs text-gray-600">1957 Students</span>
+                        <span class="text-xs text-gray-600">01h 59m</span>
+                    </div>
+                    <p class="p-2 saira">
+                        Advance PHP knowledge with JS to make smart web
+                    </p>
+                    <div class="flex justify-between mt-6 p-4">
+                        <span class="text-xs text-gray-600">Rs.499</span>
+                        <span class="text-xs text-gray-600"><i class="fa-solid fa-cart-shopping"></i></span>
+
+                    </div>
+                </div>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="">
+                        <img class="rounded-t-lg"
+                            src="images/rocket-launch-laptop-flying-rocket-icon-business-startup-project-concept 1.png">
+                    </a>
+
+                    <div class="flex justify-between mb-5 mt-4 p-4">
+                        <span class="text-xs text-gray-600">1957 Students</span>
+                        <span class="text-xs text-gray-600">01h 59m</span>
+                    </div>
+                    <p class="p-2 saira">
+                        Education Software and PHP and JS System Script
+                    </p>
+                    <div class="flex justify-between mt-6 p-4">
+                        <span class="text-xs text-gray-600">Rs.499</span>
+                        <span class="text-xs text-gray-600"><i class="fa-solid fa-cart-shopping"></i></span>
+
+                    </div>
+                </div>
+
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="">
+                        <img class="rounded-t-lg"
+                            src="images/red-up-arrow-coin-stacks-pink-background-financial-success-growth-concept-3d-render-illustration 1.png">
+                    </a>
+
+                    <div class="flex justify-between mb-5 mt-4 p-4">
+                        <span class="text-xs text-gray-600">1957 Students</span>
+                        <span class="text-xs text-gray-600">01h 59m</span>
+                    </div>
+                    <p class="p-2 saira">
+                        The Complete Financial Analyst Training & Investing
+                    </p>
+                    <div class="flex justify-between mt-6 p-4">
+                        <span class="text-xs text-gray-600">Rs.499</span>
+                        <span class="text-xs text-gray-600"><i class="fa-solid fa-cart-shopping"></i></span>
+
+                    </div>
+                </div>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="">
+                        <img class="rounded-t-lg"
+                            src="images/travel-concept-3d-illustration-airplane-flying-map-pin 1.png">
+                    </a>
+
+                    <div class="flex justify-between mb-5 mt-4 p-4">
+                        <span class="text-xs text-gray-600">1957 Students</span>
+                        <span class="text-xs text-gray-600">01h 59m</span>
+                    </div>
+                    <p class="p-2 saira">
+                        Marketing 2023: Complete Guide To Instagram Growth
+                    </p>
+                    <div class="flex justify-between mt-6 p-4">
+                        <span class="text-xs text-gray-600">Rs.499</span>
+                        <span class="text-xs text-gray-600"><i class="fa-solid fa-cart-shopping"></i></span>
+
+                    </div>
+                </div>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="">
+                        <img class="rounded-t-lg"
+                            src="images/online-banking-icon-money-saving-bank-bundles-money-coins-floating-around-purple-background 1.png">
+                    </a>
+
+                    <div class="flex justify-between mb-5 mt-4 p-4">
+                        <span class="text-xs text-gray-600">1957 Students</span>
+                        <span class="text-xs text-gray-600">01h 59m</span>
+                    </div>
+                    <p class="p-2 saira">
+                        Learn 3D Modelling and Design for Beginners
+                    </p>
+                    <div class="flex justify-between mt-6 p-4">
+                        <span class="text-xs text-gray-600">Rs.499</span>
+                        <span class="text-xs text-gray-600"><i class="fa-solid fa-cart-shopping"></i></span>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="mt-20 mb-20 flex justify-center">
+                <button type="button"
+                    class="text-white bg-gradient-to-l from-violet-700 via-indigo-700 to-blue-700 rounded mt-0.5 px-5 py-2 m-1">Explore
+                    Courses</button>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <!--Course Trainign-->
+    <section>
+        <div class="bg-gradient-to-l from-blue-700 via-blue-500 to-blue-400 text-white pt-8 pb-30 z-0 ps-10 ">
+            <div class="relative">
+                <span class="border border-gray-300 p-28 absolute rounded-r-full top-4 -left-20"> </span>
+                <span class="border-2 border-dashed border-gray-300 p-24 absolute rounded-r-full top-8 -left-20">
+                </span>
+                <span class="border border-gray-300 p-20 absolute rounded-r-full top-12 -left-20"> </span>
+            </div>
+            <div class="mb-8 mt-10">
+                <div class="righteous-regular text-center">
+                    <h1 class="text-3xl">Why <span class="text-blue-800"> learn </span> with our courses?</h1>
+                    <p class="text-md leading-6 px-10 pb-8 z-50">We are providing the best courses and top classes.And
+                        extradinery placement
+                        training.....</p>
+
+                </div>
+            </div>
+
+
+            <div class="flex justify-evenly items-center mt-40">
+                <div class="flex flex-col justify-center items-center border-r-2 border-dotted righteous-regular">
+                    <img src="images/Vector (1).png">
+                    <h1 class="text-xl leading-8 pt-8 righteous-regular">01.Learn</h1>
+                    <p class="text-xs w-2.3 text-center px-10 py-2">Learn Continiously There is always "one more thing"
+                        to learn.</p>
+                </div>
+
+                <div class="flex flex-col justify-center items-center righteous-regular">
+                    <img src="images/Vector (2).png">
+                    <h1 class="text-xl leading-8 pt-8 righteous-regular">02. Graduate</h1>
+                    <p class="text-xs w-2.3 text-center px-10 py-2">Be bold,be courageous,be your best.</p>
+                </div>
+
+                <div class="flex flex-col justify-center items-center border-l-2 border-dotted righteous-regular">
+                    <img src="images/Vector (3).png">
+                    <h1 class="text-xl leading-8 pt-8 righteous-regular">03. Work</h1>
+                    <p class="text-xs w-2.3 text-center px-10 py-2">Great companies are built in the office,with hard
+                        work put in by team.</p>
+                </div>
+            </div>
 
 
         </div>
     </section>
 
 
-    <footer class="bg-gray-900 text-gray-300 py-10">
-        <div class="container mx-auto grid grid-cols-4 gap-8">
-            <div>
-                <h4 class="text-xl font-bold mb-3">GUATHAM TRAVEL WORLD</h4>
-                <p>One Place for all your destinations</p>
+
+
+    <section>
+
+        <div class="bg-gradient-to-b from-sky-50 via-sky-150 to-sky-200 pt-20 ">
+
+            <div class="text-center">
+                <h1 class="righteous-regular text-lg">Top <sapan class="text-blue-600 righteous-regular"> Categories
+                    </sapan>
+                </h1>
+                <span class="text-transform: uppercase righteous-regular">100+ unique online course list designs</span>
             </div>
 
+            <div class="grid grid-cols-7 gap-5 pt-10 ">
+                <div class="flex items-center justify-between flex-wrap gap-2 p-20">
+                    <div class=" flex flex-col items-center justify-center bg-white text-center rounded-lg shadow p-10">
+                        <div class="bg-red-600 rounded-lg text-center w-20 h-20 flex justify-center">
+                            <img src="images/Vector (4).png" class="w-10 h-10 mt-5">
+                        </div>
+                        <h1 class="text-center mt-10 righteous-regular">Digital Marketing</h1>
+                        <p class="text-center mt-5 text-gray-500 righteous-regular text-xs">25 Courses</p>
+                    </div>
+                </div>
 
-            <div>
-                <h4 class="font-bold mb-3">Quick Links</h4>
-                <ul class="space-y-2 text-sm">
-                    <li><a href="" class="">Home</a></li>
-                    <li><a href="" class="">Services</a></li>
-                    <li><a href="" class="">Package</a></li>
-                    <li><a href="" class="">Offers</a></li>
-                </ul>
-            </div>
-
-
-            <div>
-                <h4 class="font-bold mb-3">Destination</h4>
-                <ul>
-                    <li><a href="" class="">Package</a></li>
-                    <li><a href="" class="">Services</a></li>
-                    <li><a href="" class="">Honeymoon</a></li>
-                    <li><a href="" class="">Bachelors</a></li>
-                    <li></li>
-                </ul>
-            </div>
+                <div class="flex items-center justify-between flex-wrap gap-2 p-20">
+                    <div class=" flex flex-col items-center justify-center bg-white text-center rounded-lg shadow p-10">
+                        <div class="bg-green-300 rounded-lg text-center w-20 h-20 flex justify-center">
+                            <img src="images/Vector (5).png" class="w-10 h-10 mt-5">
+                        </div>
+                        <h1 class="text-center mt-10 righteous-regular">Digital Marketing</h1>
+                        <p class="text-center mt-5 text-gray-500 righteous-regular text-xs">25 Courses</p>
+                    </div>
+                </div>
 
 
-            <div>
-                <h4 class="font-bold mb-3">Contact Us</h4>
-                <p>Email : Support@gautha.in</p>
-                <p>Phone : 91-8778787799</p>
-                <p>Address : Texas,USA</p>
-            </div>
-</div>  
-            <div class="text-center text-lg text-white mt-10"> &copy; 2025 All Rights Reserved Gautham Travel Ltd 
+
+                <div class="flex items-center justify-between flex-wrap gap-2 p-20">
+                    <div class=" flex flex-col items-center justify-center bg-white text-center rounded-lg shadow p-10">
+                        <div class="bg-violet-600 rounded-lg text-center w-20 h-20 flex justify-center">
+                            <img src="images/Vector (6).png" class="w-10 h-10 mt-5">
+                        </div>
+                        <h1 class="text-center mt-10 righteous-regular">Digital Marketing</h1>
+                        <p class="text-center mt-5 text-gray-500 righteous-regular text-xs">25 Courses</p>
+                    </div>
+                </div>
+
+
+                <div class="flex items-center justify-between flex-wrap gap-2 p-20">
+                    <div class=" flex flex-col items-center justify-center bg-white text-center rounded-lg shadow p-10">
+                        <div class="bg-yellow-400 rounded-lg text-center w-20 h-20 flex justify-center">
+                            <img src="images/Vector (7).png" class="w-10 h-10 mt-5">
+                        </div>
+                        <h1 class="text-center mt-10 righteous-regular">Digital Marketing</h1>
+                        <p class="text-center mt-5 text-gray-500 righteous-regular text-xs">25 Courses</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between flex-wrap gap-2 p-20">
+                    <div class=" flex flex-col items-center justify-center bg-white text-center rounded-lg shadow p-10">
+                        <div class="bg-green-800 rounded-lg text-center w-20 h-20 flex justify-center">
+                            <img src="images/Vector (8).png" class="w-10 h-10 mt-5">
+                        </div>
+                        <h1 class="text-center mt-10 righteous-regular">Digital Marketing</h1>
+                        <p class="text-center mt-5 text-gray-500 righteous-regular text-xs">25 Courses</p>
+                    </div>
+                </div>
+
+
+                <div class="flex items-center justify-between flex-wrap gap-2 p-20">
+                    <div class=" flex flex-col items-center justify-center bg-white text-center rounded-lg shadow p-10">
+                        <div class="bg-blue-600 rounded-lg text-center w-20 h-20 flex justify-center">
+                            <img src="images/Vector (9).png" class="w-10 h-10 mt-5">
+                        </div>
+                        <h1 class="text-center mt-10 righteous-regular">Digital Marketing</h1>
+                        <p class="text-center mt-5 text-gray-500 righteous-regular text-xs">25 Courses</p>
+                    </div>
+                </div>
 
             </div>
 
 
         </div>
+
+    </section>
+
+
+    <!--Subscription-->
+    <section>
+        <div class="bg-white relative p-30">
+            <div
+                class="flex justify-between text-white bg-gradient-to-tr from-violet-400 via-indigo-500 to-pink-500 p-8 rounded-lg">
+
+
+                <div class="absolute ">
+                    <img src="images/Polygon 7.png" class="relative top-60 -left-20">
+                </div>
+                <div>
+                    <img src="images/Ellipse 166.png" class="w-10 h-10 mb-6">
+                    <img src="images/Ellipse 168.png" class="w-10 h-10 mb-10 ms-20">
+                    <img src="images/Ellipse 167.png" class="w-10 h-10 mb-6 ms-4">
+                </div>
+
+
+                <div class="text-center py-10">
+                    <h1 class="text-4xl leading-10 righteous-regular">
+                        Subscribe For Get Update Every New Courses
+                    </h1>
+                    <p class="text-xs leading-10 mt-2">20k+ students daily learn with Eduvi. Subscribe for new courses.
+                    </p>
+
+                    <form class="mt-10">
+                        <input type="email" placeholder="Enter your e-mail"
+                            class="bg-opactiy-65 bg-indigo-300 py-3 px-10 rounded-l-md placeholder:text-white text-xs w-3/4">
+                        <button class="bg-blue-700 py-3 px-4 text-xs rounded-r-md relative">Subscribe</button>
+                    </form>
+                </div>
+
+                <div>
+                    <img src="images/Ellipse 168 (2).png" class="w-10 h-10 mb-6 ms-14">
+                    <img src="images/Ellipse 166 (5).png" class="w-10 h-10 mb-12 me-40">
+                    <img src="images/Ellipse 167 (3).png" class="w-10 h-10 mb-6 ms-20">
+                </div>
+
+                <div>
+                    <img src="images/Polygon 8.png" class="relative top-80 right-60">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <!--Video Section-->
+    <section>
+        <div class="flex justify-center p-20 relative">
+            <img src="images/Rectangle 8691.png">
+            <img src="images/Group 512857.png" class="absolute top-80">
+        </div>
+    </section>
+
+
+    <!--Review-->
+    <section>
+
+        <div class="bg-gradient-to-b from:white via:sky-100 to-sky-200 pb-20">
+            <div class="pb-20">
+                <div class="text-center">
+                    <h1 class="righteous-regular text-lg">
+                        <sapan class="text-blue-600 righteous-regular"> Testimonials
+                        </sapan>
+                    </h1>
+                    <span class="text-transform:  righteous-regular">What our student say about us</span>
+                </div>
+            </div>
+
+
+
+
+            <div class="">
+
+
+                <div class="flex gap-1 pr-60 pl-60 items-center justify-center text-center">
+                    <div class=" flex bg-white shadow rounded-lg p-5 text-center ">
+                        <img src="images/th (1) 5.png" class="relative -top-16 left-110">
+                        <span class="mt-5">Such an amazing traniner and easily understand the entire syllabus, and the
+                            guidence will be
+                            super and good to the way of explaning.</span>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <footer>
+        <section>
+            <div class="flex justify-between bg-gradient-to-r from-purple-600 via-violet-500 to-blue-500">
+                <div class="px-8 py-4">
+                    <h1 class="py-2 ps-12 righteous-regular">Connect</h1>
+                    <a href="#" class="mt-2">
+                        <img src="images/Askmeidentity_2-removebg-preview.png">
+                    </a>
+                    <p class="text-xs w-2/3 text-gray-700 ps-4 righteous-regular">
+                        Sri Jagannath Nivas,8-1-164/345/A/1, Pragati Colony, Mailardevpally, Nawab Saheb Kunta, Hyd,
+                        500005
+                    </p>
+                </div>
+
+                <div class="mx-auto w-full">
+                    <div class="grid grid-cols-4 px-4 py-8 gap-8 righteous-regular">
+
+
+                        <div>
+                            <h2 class="mb-4 text-lg text-slate-900">Classes</h2>
+                            <ul class="text-black-500 font-medium">
+                                <li class="mb-2"><a href="" class="text-sm">Classroom Courses</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Virtual Classroom Courses</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">E-Learning Courses</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Video Courses</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Offline Courses</a></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h2 class="mb-4 text-lg text-slate-900">Comminity</h2>
+                            <ul class="text-black-500 font-medium">
+                                <li class="mb-2"><a href="" class="text-sm">Learners</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Partners</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Developers</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Transactions</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Blog</a></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h2 class="mb-4 text-lg text-slate-900">Qucik Links</h2>
+                            <ul class="text-black-500 font-medium">
+                                <li class="mb-2"><a href="" class="text-sm">Home </a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Professional Education</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Courses</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Admission</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Testimonial</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Programs</a></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h2 class="mb-4 text-lg text-slate-900">More</h2>
+                            <ul class="text-black-500 font-medium">
+                                <li class="mb-2"><a href="" class="text-sm">Press</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Inverstors</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Terms</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Privacy</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Help</a></li>
+                                <li class="mb-2"><a href="" class="text-sm">Contact</a></li>
+                            </ul>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div
+                class="bg-gradient-to-r from-purple-700 via-blue-400 to-blue-700 flex justify-center items-center gap-2 p-2 ">
+                <a href=""><img src="images/Instagram.png" class="bg-white rounded-full w-10 p-2"></a>
+                <a href=""><img src="images/WhatsApp.png" class="bg-white rounded-full w-10 p-2"></a>
+                <a href=""><img src="images/Twitter.png" class="bg-white rounded-full w-10 p-2"></a>
+                <a href=""><img src="images/LinkedIn.png" class="bg-white rounded-full w-10 p-2"></a>
+                <a href=""><img src="images/YouTube.png" class="bg-white rounded-full w-10 p-2"></a>
+            </div>
+
+        </section>
+        <section>
+            <div class="bg-gradient-to-r from-purple-700 via-blue-400 to-blue-700 text-white text-center text-xs">
+                <span class="">
+                    Copyright @ 2023 askmeidentity. All Rights Reserved
+                </span>
+            </div>
+        </section>
+
+
+
     </footer>
+
 </body>
+
+
 
 </html>
